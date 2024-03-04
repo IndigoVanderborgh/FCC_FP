@@ -60,4 +60,5 @@ const tea4TeamFCC = null;
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 
-// review day x2 my c: drive crashed!
+// review day x2 my c: drive crashed!!
+// Couldnt work on it.
