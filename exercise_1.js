@@ -33,7 +33,7 @@ for(let cups = 1; cups <= numOfCups; cups += 1) {
 };
 
 // Only change code below this line
-const tea4TeamFCC = null;
+const tea4TeamFCC = getTea(40);
 // Only change code above this line
 
 // // Function that returns a string representing a cup of green tea
