@@ -60,5 +60,4 @@ const tea4TeamFCC = getTea(40);
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 
-// review day x2 my c: drive crashed!!
-// Couldnt work on it.
+// Review
