@@ -12,7 +12,9 @@
 // ------------------------------------------ exercise ------------------------------------------------------------------------------------------------------------------------------
 
 
-// Rewrite the code so the global array bookList is not changed inside either function. The add function should add the given bookName to the end of the array passed to it and return a new array (list). The remove function should remove the given bookName from the array passed to it.
+// Rewrite the code so the global array bookList is not changed inside either function. 
+// The add function should add the given bookName to the end of the array passed to it and return a new array (list). 
+// The remove function should remove the given bookName from the array passed to it.
 
 // Note: Both functions should return an array, and any new parameters should be added before the bookName parameter.
 
@@ -31,9 +33,9 @@ function add(arr, bookName) {
 function remove(arr, bookName) {
     let newArr = [...arr]; // Copy the bookList array to a new array.
     if (newArr.indexOf(bookName) >= 0) {
-      // Check whether the bookName parameter is in new array.
-      newArr.splice(newArr.indexOf(bookName), 1); // Remove the given paramater from the new array.
-      return newArr; // Return the new array.
+        // Check whether the bookName parameter is in new array.
+        newArr.splice(newArr.indexOf(bookName), 1); // Remove the given paramater from the new array.
+        return newArr; // Return the new array.
     // Change code above this line
     }
 }
