@@ -138,7 +138,20 @@ const watchList = [
 
   // Only change code below this line
 
-const filteredList = "";
+const filteredList = watchList
+    .filter(movie => {
+        // if true, keep item
+        //  if false, reject item
+        return parseFloat(movie.imdbRating) >= 8.0;
+    })
+    .map(movie => {
+        return {
+            title: movie.Title,
+            rating: movie.imdbRating
+        };
+    });
+
+// filter then map
 
   // Only change code above this line
 
