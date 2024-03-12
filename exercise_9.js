@@ -141,8 +141,9 @@ const watchList = [
 const filteredList = watchList
     .filter(movie => {
         // if true, keep item
-        //  if false, reject item
+        // if false, reject item
         return parseFloat(movie.imdbRating) >= 8.0;
+        // parseFloat 
     })
     .map(movie => {
         return {
@@ -157,6 +158,8 @@ const filteredList = watchList
 
 console.log(filteredList);
 
+
+//review day
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 
 
