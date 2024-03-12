@@ -143,7 +143,7 @@ const filteredList = watchList
         // if true, keep item
         // if false, reject item
         return parseFloat(movie.imdbRating) >= 8.0;
-        // parseFloat 
+        // parseFloat is used to parse a value as a string and returns a number
     })
     .map(movie => {
         return {
