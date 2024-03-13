@@ -136,7 +136,7 @@ const watchList = [
     }
 ];
 
-  // Only change code below this line
+// Only change code below this line
 
 const filteredList = watchList
     .filter(movie => {
@@ -154,7 +154,7 @@ const filteredList = watchList
 
 // filter then map
 
-  // Only change code above this line
+//Only change code above this line
 
 console.log(filteredList);
 
