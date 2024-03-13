@@ -17,20 +17,20 @@ function sliceArray(anim, beginSlice, endSlice) {
 
 
     // Only change code above this line
-  }
+}
 
-  const inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
-  sliceArray(inputAnim, 1, 3);
+const inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
+sliceArray(inputAnim, 1, 3);
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 
 
 // function sliceArray(anim, beginSlice, endSlice) {
 //     // Only change code below this line
-  
-  
+
+
 //     // Only change code above this line
 //   }
-  
+
 //   const inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
 //   sliceArray(inputAnim, 1, 3);
