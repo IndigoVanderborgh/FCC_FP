@@ -159,7 +159,7 @@ const filteredList = watchList
 console.log(filteredList);
 
 
-//review day
+//review day x2
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 
 
