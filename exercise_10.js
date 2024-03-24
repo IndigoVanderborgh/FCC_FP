@@ -28,5 +28,5 @@ Array.prototype.myFilter = function(callback) {
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 
-
-// review day11
+// Let's talk abouth 'this'
+// In this scenario, we use this on the new array we made. 
