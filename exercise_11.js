@@ -15,12 +15,15 @@
 function sliceArray(anim, beginSlice, endSlice) {
     // Only change code below this line
 
+    // return anim.slice(beginSlice, endSlice)
+    //Remember: slice syntax is -> slice(start, end) where start and end are elements in the array.
 
     // Only change code above this line
 }
 
 const inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
 sliceArray(inputAnim, 1, 3);
+// Output: [Dog, Tiger], as slice takes 1 into account, but stops before the 3rd element which is zebra.
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 
@@ -34,5 +37,3 @@ sliceArray(inputAnim, 1, 3);
 
 //   const inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
 //   sliceArray(inputAnim, 1, 3);
-
-// review day
