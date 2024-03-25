@@ -25,6 +25,12 @@
 //     return cities.slice(startSlice, endSlice);
 // }
 
+// OR
+// function nonMutatingSplice(cities, startSlice) {
+//     return cities.slice(startSlice, startSlice + 3);
+// }
+
+
 // I needed to make startslice + 3 as a the second slice parameter
 
 // However, FCC elected to just solve the problem and move on. So here's the solution that I do not agree with as it isn't flexible and is specific for the problem.
