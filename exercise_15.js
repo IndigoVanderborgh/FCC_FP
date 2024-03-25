@@ -19,9 +19,10 @@
 //   { name: 'camperCat', age: 10 }
 // ];
 
-// const sumOfAges = users.reduce((sum, user) => sum + user.age, 0);
+// const sumOfAges = users.reduce((sum, user) => sum + user.age, 0); <-- Initialize at 0
 // console.log(sumOfAges);
 
+// WRONG-ISH READ THE LESSON
 // This is the same as a for loop:
 
 // function calculateSumOfAges(users) {
