@@ -1,38 +1,61 @@
-// Use the every Method to Check that Every Element in an Array Meets a Criteria
+// Introduction to Currying and Partial Application
 
-// The every method works with arrays to check if every element passes a particular test. It returns a Boolean value - true if all values meet the criteria, false if not.
+// The arity of a function is the number of arguments it requires. Currying a function means to convert a function of N arity into N functions of arity 1.
 
-// For example, the following code would check if every element in the numbers array is less than 10:
+// In other words, it restructures a function so it takes one argument, then returns another function that takes the next argument, and so on.
 
-// const numbers = [1, 5, 8, 0, 10, 11];
+// Here's an example:
 
-// numbers.every(function(currentValue) {
-//   return currentValue < 10;
-// });
+// function unCurried(x, y) {
+//   return x + y;
+// }
 
-// The every method would return false here.
+// function curried(x) {
+//   return function(y) {
+//     return x + y;
+//   }
+// }
+
+// const curried = x => y => x + y
+
+// curried(1)(2)
+
+// curried(1)(2) would return 3.
+
+// This is useful in your program if you can't supply all the arguments to a function at one time. You can save each function call into a variable, which will hold the returned function reference that takes the next argument when it's available. Here's an example using the curried function in the example above:
+
+// const funcForY = curried(1);
+// console.log(funcForY(2)); // 3
+
+// Similarly, partial application can be described as applying a few arguments to a function at a time and returning another function that is applied to more arguments. Here's an example:
+
+// function impartial(x, y, z) {
+//   return x + y + z;
+// }
+
+// const partialFn = impartial.bind(this, 1, 2);
+// partialFn(10); // 13
+
 
 
 // ------------------------------------------ exercise ------------------------------------------------------------------------------------------------------------------------------
+// ill in the body of the add function so it uses currying to add parameters x, y, and z.
 
-// Use the every method inside the checkPositive function to check if every element in arr is positive. The function should return a Boolean value.
-
-function checkPositive(arr) {
+function add(x) {
     // Only change code below this line
-
-
+  
+  
     // Only change code above this line
-}
-
-checkPositive([1, 2, 3, -4, 5]);
-
-// function checkPositive(arr) {
-    // // Only change code below this line
-// 
-// 
-    // // Only change code above this line
-// }
-
-checkPositive([1, 2, 3, -4, 5]);
+  }
+  
+  add(10)(20)(30);
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 
+// function add(x) {
+//     // Only change code below this line
+  
+  
+//     // Only change code above this line
+//   }
+  
+//   add(10)(20)(30);
